@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/partimer/cordova-client-cert-authentication-partimer.git"
   },
+  "license": "Apache",
   "keywords": [
     "cordova",
     "certificate",
