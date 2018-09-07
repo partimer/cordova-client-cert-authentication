@@ -1,7 +1,7 @@
 {
   "name": "cordova-client-cert-authentication-partimer",
   "version": "1.0.1",
-  "description": "Cordova App Update",
+  "description": "Cordova Client Certificate prompt",
   "cordova": {
     "id": "cordova-client-cert-authentication-partimer",
     "platforms": [
