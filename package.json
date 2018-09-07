@@ -1,0 +1,29 @@
+{
+  "name": "cordova-client-cert-authentication-partimer",
+  "version": "1.1.0",
+  "description": "Cordova App Update",
+  "cordova": {
+    "id": "cordova-client-cert-authentication-partimer",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partimer/cordova-client-cert-authentication-partimer.git"
+  },
+  "keywords": [
+    "cordova",
+    "certificate",
+    "auto",
+    "cert",
+    "user",
+    "client",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "bugs": {
+    "url": "https://github.com/partimer/cordova-client-cert-authentication-partimer/issues"
+  },
+  "homepage": "https://github.com/partimer/cordova-client-cert-authentication-partimer#readme",
+}
