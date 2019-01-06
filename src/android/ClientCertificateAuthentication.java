@@ -19,7 +19,7 @@ import java.security.cert.X509Certificate;
 import java.util.concurrent.ExecutorService;
 
 
-@TargetApi(Build.VERSION_CODES.LOLLIPOP)
+@TargetApi(Build.VERSION_CODES.N)
 public class ClientCertificateAuthentication extends CordovaPlugin {
 
 
@@ -37,7 +37,7 @@ public class ClientCertificateAuthentication extends CordovaPlugin {
     }
 
 
-    @TargetApi(Build.VERSION_CODES.ICE_CREAM_SANDWICH)
+    @TargetApi(Build.VERSION_CODES.N)
     @Override
     public boolean onReceivedClientCertRequest(CordovaWebView view, ICordovaClientCertRequest request) {
         if (mCertificates == null || mPrivateKey == null) {
