@@ -54,8 +54,7 @@ public class ClientCertificateAuthentication extends CordovaPlugin {
         final String alias = sp.getString(SP_KEY_ALIAS, null);
 
         if (alias == null) {
-            // KeyChain.choosePrivateKeyAlias(cordova.getActivity(), callback, new String[]{"RSA","EC","AES"}, null, request.getHost(), request.getPort(), null);
-            // KeyChain.choosePrivateKeyAlias(cordova.getActivity(), callback, new String[]{"RSA","EC","AES"}, new Principal[]{}, request.getHost(), request.getPort(), null);
+            KeyChain.choosePrivateKeyAlias(cordova.getActivity(), callback, new String[]{"RSA","EC","AES"}, null, request.getHost(), request.getPort(), null);
         } else {
             ExecutorService threadPool = cordova.getThreadPool();
             threadPool.submit(new Runnable() {
